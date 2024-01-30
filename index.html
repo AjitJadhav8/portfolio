@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4cdd821083.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logoo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Eeducation">Education</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-ellipsis" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hello, I am <span>Ajit </span>Jadhav</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------about---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="favicon.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Current student enrolled in Rajarshi Shahu College of Engineering MCA Program with hands-on
+                        experience gained through astudentcentric, growth-oriented. Recognized for possessing a strong
+                        passion for continuing education initiatives and working with future technology leaders to drive
+                        personal and professional development. Seeking opportunities to learn new
+                        technologies and concepts to develop as a professional developer.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> Front End Development </span><br> - Design Interfaces With The HTML CSS JS</li>
+                            <br>
+                            <li><span> Web Penetration Testing </span><br> - Test The Website And Find The Bugs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Educatio -->
+    <div id="Eeducation">
+        <div class="container">
+            <h1 calss="sub-title">Education</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="MCA1.png" alt="">
+                    <div class="layer">
+                        <h3>Masters Of Computer Application</h3>
+                        <h2>2022-2024</h2><br>
+                        <p>JSPM's Rajarshi Shahu College of
+                            Engineering, Pune</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="BCAA.jpg" alt="">
+                    <div class="layer">
+                        <h3>Bachelor of Computer Application</h3>
+                        <h2>2019-2022</h2><br>
+                        <p>Maharaja sayajirao gaikwad college, Malegaon</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="12thh.png">
+                    <div class="layer">
+                        <h3> Higher Secondary Certificate</h3>
+                        <h2>2019</h2><br>
+                        <p>D D Bytco Boys High School And Junior College, Nashik</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------Services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Godd Knowledge in crafting modern and responsive websites with a focus on user experience.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-file-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creative and intuitive web design services focused on
+                        delivering visually stunning and user-friendly interfaces.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bug"></i>
+                    <h2>Web Penetration Testing</h2>
+                    <p>Securing your web applications through
+                        comprehensive penetration testing to identify and address potential vulnerabilities.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- clg -->
+
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 calss="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Hotel Management</h3>
+                        <p>Created Hotel Management Software with the help of Core Java, JDBC, Java Swing</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Tours And Travels</h3>
+                        <p>Created Tours And Travels Website using PHP, Front-end(HTML,CSS,JavaScript,BOOTSTRAP),
+                            Back-end(PHP,MYSQL).</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-333.jpg" alt="">
+                    <div class="layer">
+                        <h3>XSS Scanner</h3>
+                        <p>Created XSS Scanner Tool with the help of Python This tool is helpful for Information
+                            Gathering as well as for find bugs on web</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>ajitjadhav30april@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7385980604</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download="my-cv.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="return validateForm()">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="phoneNumber" placeholder="Phone Number" required>
+                        <textarea name="Message" rows="5"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Ajit Jadhav</p>
+        </div>
+    </div>
+
+
+
+    <!-- ----------Script---------- -->
+    <script>
+        function validateForm() {
+            var name = document.forms[0]["Name"].value;
+            var email = document.forms[0]["email"].value;
+            var phoneNumber = document.forms[0]["phoneNumber"].value;
+
+            if (name.trim() === "" || email.trim() === "" || phoneNumber.trim() === "") {
+                alert("Name, Email, and Phone Number must be filled out");
+                return false;
+            }
+
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                alert("Please enter a valid email address");
+                return false;
+            }
+
+            var phonePattern = /^\d{10}$/;
+            if (!phonePattern.test(phoneNumber)) {
+                alert("Please enter a valid 10-digit phone number");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
+
+
+    <script>
+        var sidemen = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemen.style.right = "0";
+        }
+        function closemenu() {
+            sidemen.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
